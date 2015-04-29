@@ -1,6 +1,7 @@
 package com.melitraining.google_play_services.fragments;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.melitraining.google_play_services.R;
+import com.melitraining.google_play_services.activities.ExampleMapsActivity;
 
 public class MainFragment extends Fragment {
 
@@ -28,6 +30,6 @@ public class MainFragment extends Fragment {
     }
 
     private void goToMapsActivity() {
-
+        startActivity(new Intent(getActivity(), ExampleMapsActivity.class));
     }
 }

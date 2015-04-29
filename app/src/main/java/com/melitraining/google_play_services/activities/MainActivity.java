@@ -1,8 +1,9 @@
-package com.melitraining.google_play_services;
+package com.melitraining.google_play_services.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.melitraining.google_play_services.R;
 import com.melitraining.google_play_services.fragments.MainFragment;
 
 
